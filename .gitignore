@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Proje ciktilari
+plots/*
+!plots/.gitkeep
+
+# Ses dosyalari (boyut buyuk olabilir, repoya konmaz)
+data/siren/*.wav
+data/no_siren/*.wav
+data/custom/*.wav
+!data/siren/.gitkeep
+!data/no_siren/.gitkeep
+!data/custom/.gitkeep
